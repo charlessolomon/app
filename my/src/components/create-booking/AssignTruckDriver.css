@@ -1,0 +1,108 @@
+.AssignTruckDriver {
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+.AssignTruckDriver .heading{
+    display: flex;
+    align-items: center;
+}
+
+.AssignTruckDriver .heading .mode-of-truck{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+}
+
+.AssignTruckDriver .heading .mode-of-truck p{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.AssignTruckDriver .heading .mode-of-truck p.active{
+    background: var(--blue);
+    border-radius: 5px;
+    color: var(--white);
+}
+
+/* Row 1  */
+.AssignTruckDriver .form .row-1 .input-field {
+    flex: 1;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.AssignTruckDriver .form .row-1 .input-field:nth-child(1) {
+    padding-left: 0px;
+}
+
+.AssignTruckDriver .form .row-1 .input-field:nth-child(1) .input-box input {
+    padding-left: 30px;
+}
+
+.AssignTruckDriver .form .row-1 .input-field .input-box .icon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
+/* Row 1  */
+
+
+/* Row 2  */
+.AssignTruckDriver .form .row-2 .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.AssignTruckDriver .form .row-2 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.AssignTruckDriver .form .row-2 .input-field:first-child {
+    margin-left: 0px;
+}
+/* Row 2 */
+
+
+/* Row 3  */
+.AssignTruckDriver .form .row-3 .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.AssignTruckDriver .form .row-3 .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+.AssignTruckDriver .form .row-3 .add-input{
+    margin-left: 10px;
+}
+
+.AssignTruckDriver .form .row-3 .input-field:first-child {
+    margin-left: 0px;
+}
+
+.AssignTruckDriver .form .row-3 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+/* Row 3  */
+
+
+/* Row 4  */
+.AssignTruckDriver .form .row-4 .input-field {
+    flex: 1;
+    min-width: 100px;
+    width: 100%;
+}
+/* Row 4  */

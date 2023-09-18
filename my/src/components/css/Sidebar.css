@@ -1,0 +1,91 @@
+.Sidebar {
+    width: 20%;
+    max-width: 400px;
+    min-width: 300px;
+    height: calc(100vh - 100px);
+    background: white;
+    overflow-y: auto;
+}
+
+/* width */
+.Sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.Sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.Sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.Sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.Sidebar .content {
+    padding: 20px 2%;
+    width: 96%;
+}
+
+.Sidebar .item .label {
+    width: 100%;
+    margin: 10px 2%;
+    padding: 16px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Sidebar .item .label:hover {
+    background: var(--blue) !important;
+    color: var(--white) !important;
+}
+
+.Sidebar a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+.Sidebar .item:hover > a{
+    color:var(--white);
+}
+
+.Sidebar .item .label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sidebar .item .label .icon{
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.Sidebar .item .label p{
+    display: flex;
+    align-items: center;
+}
+
+.Sidebar .item .children {
+    width: 100%;
+    margin: 0px 2%;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.Sidebar .item .children p{
+    padding: 8px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+.Sidebar .item .children p:hover{
+    color: var(--blue);
+}

@@ -1,0 +1,95 @@
+.CreateBooking {
+    padding: 20px;
+}
+
+.CreateBooking>* {
+    margin-bottom: 30px;
+}
+
+.CreateBooking .header {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CreateBooking .header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: var(--blue);
+}
+
+.CreateBooking .header .icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.CreateBooking .content {
+    padding: 20px 0;
+}
+
+.CreateBooking .form .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+.CreateBooking .input-field .input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.CreateBooking .input-field .label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #7C7C7C;
+    padding-bottom: 4px;
+}
+
+.CreateBooking .input-field .input-box input,
+.CreateBooking .input-field .input-box select,
+.CreateBooking .input-field .input-box textarea {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #DFDFDF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    resize: none;
+    background: var(--white);
+}
+
+.CreateBooking .input-field .input-box input:focus,
+.CreateBooking .input-field .input-box textarea:focus {
+    outline: none;
+    border: 1px solid var(--blue);
+}
+
+.CreateBooking .input-field .input-box select option {
+    background: white;
+    color: var(--black);
+}
+
+.CreateBooking .buttons-main,
+.CreateBooking .buttons-main .right {
+    display: flex;
+    align-items: center;
+}
+
+.CreateBooking .buttons-main{
+    justify-content: space-between;
+    min-width: 800px;
+    max-width: 1200px;
+}

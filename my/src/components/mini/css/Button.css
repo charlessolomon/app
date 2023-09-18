@@ -1,0 +1,13 @@
+.Button button {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid var(--blue);
+    background: transparent;
+    color: var(--blue);
+    cursor: pointer;
+}

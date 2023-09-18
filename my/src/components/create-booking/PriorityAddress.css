@@ -1,0 +1,116 @@
+.PriorityAddress{
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+
+/* Row 1  */
+.PriorityAddress .form .row-1 .input-field{
+    flex:1;
+}
+.PriorityAddress .form .row-1 .input-field .input-box .icon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
+/* Row 1  */
+
+
+
+/* Row 2 */
+.PriorityAddress .form .row-2 .input-field{
+    flex:1;
+}
+
+.PriorityAddress .form .row-2 .input-field .data .item,
+.PriorityAddress .form .row-2 .input-field .data .item .data-content,
+.PriorityAddress .form .row-2 .input-field .data .item .controls{
+    display: flex;
+    align-items: center;
+}
+
+.PriorityAddress .form .row-2 .input-field .data{
+    margin-top: 10px;
+}
+
+.PriorityAddress .form .row-2 .input-field .data .item{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.PriorityAddress .form .row-2 .input-field .data .item .number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue);
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    color:var(--white)
+}
+
+.PriorityAddress .form .row-2 .input-field .data .item .controls > *{
+    margin-left: 10px;
+    font-size: 16px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.PriorityAddress .form .row-2 .input-field .data .item .controls .icon:last-child{
+    color:red;
+}
+/* Row 2 */
+
+
+/* Row 3  */
+.PriorityAddress .form .row-3 .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.PriorityAddress .form .row-3 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.PriorityAddress .form .row-3 .input-field:first-child {
+    margin-left: 0px;
+    flex: 0.8;
+}
+
+.PriorityAddress .form .row-3 .input-field input {
+    min-width: 10px;
+    width: 100%;
+}
+
+.PriorityAddress .form .row-3 .input-box.check-boxes{
+    border: 1px solid #DFDFDF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.PriorityAddress .form .row-3 .input-box.check-boxes .utility{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space:nowrap;
+}
+
+.PriorityAddress .form .row-3 .input-box.check-boxes .utility input{
+    margin-right: 10px;
+}
+
+.PriorityAddress .form .row-3 .add-input{
+    margin-left: 10px;
+}
+/* Row 3  */

@@ -1,0 +1,42 @@
+.Permissions {
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+/* .permissions .form . */
+
+.Permissions .form .permission-field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Permissions .form .permission-field .input-box.rad {
+    display: flex;
+    width: 15%;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Permissions .form *{
+    margin-bottom: 0.5rem;
+}
+
+.Permissions .form .permission-field.sub-head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: var(--blue);
+    padding-bottom: 4px;
+}
+
+.Permissions .form .input-box .option input{
+    border-radius: 2.7px;
+    border: 0.5px solid #272727;
+    width: 18px;
+    height: 18px;
+}
+/* .permissions .form . */

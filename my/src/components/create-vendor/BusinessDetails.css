@@ -1,0 +1,75 @@
+.BusinessDetails {
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+/* Row Generally  */
+
+.BusinessDetails .form .row .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.BusinessDetails .form .row select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.BusinessDetails .form .row .input-field:first-child {
+    margin-left: 0px;
+}
+
+.BusinessDetails .form .row .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+/* Row Generally  */
+
+/* Row 2  */
+
+.BusinessDetails .form .row-2 .input-field {
+    flex-basis: 30.5%;  
+    flex-grow: unset;
+} 
+
+/* Row 2  */
+
+/* Last Row */
+/* last-line class reps the two last input... special class is to make them align to the right */
+.BusinessDetails .form .row .input-field.last-line{
+    flex-basis: 30.5%;
+    flex-grow: unset;
+}
+/* Last Row */
+
+/* Radio input field  */
+
+.BusinessDetails .form .row .rad {
+    border: 1px solid #DFDFDF;
+    padding: 10px 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: s */
+}
+.BusinessDetails .form .row .input-box .option {
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.BusinessDetails .form .row .input-box .option label {
+    margin-left: 0px;
+}
+
+.BusinessDetails .form .row .input-box .option:first-child {
+    margin-right: 5%;
+}
+/* Radio Input field*/

@@ -1,0 +1,48 @@
+.TruckRequirements{
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+/* Row 1  */
+.TruckRequirements .form .row-1 .input-field {
+    flex: 1;
+    padding-left: 30px;
+    width: 100%;
+    max-width: 25%;
+}
+
+.TruckRequirements .form .row-1 .input-field:nth-child(1) {
+    padding-left: 0px;
+}
+
+.TruckRequirements .form .row-1 .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+.TruckRequirements .form .row-1 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+
+.TruckRequirements .form .row-1 .value-changer{
+    border: 1px solid #DFDFDF;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #868686;
+    font-size: 60px;
+}
+
+.TruckRequirements .form .row-1 .value-changer:hover{
+    color:var(--blue)
+}
+/* Row 1  */

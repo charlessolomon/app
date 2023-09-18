@@ -1,0 +1,22 @@
+.LabelledDivider {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.LabelledDivider p {
+    margin-right: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: var(--blue);
+    white-space:nowrap;
+}
+
+.LabelledDivider .line {
+    height: 1px;
+    width: 100%;
+    background: #DFDFDF;
+}

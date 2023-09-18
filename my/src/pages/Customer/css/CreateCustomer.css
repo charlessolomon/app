@@ -1,0 +1,101 @@
+.CreateCustomer {
+    padding: 20px;
+    /* display: flex;
+    gap: 20px; */
+}
+
+.CreateCustomer>* {
+    margin-bottom: 30px;
+    min-width: 500px;
+    max-width: 70%;
+}
+
+.CreateCustomer .header {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CreateCustomer .header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: var(--blue);
+}
+
+.CreateCustomer .header .icon {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.CreateCustomer .content {
+    padding: 20px 0;
+}
+
+.CreateCustomer .form .row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+.CreateCustomer .input-field .input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.CreateCustomer .input-field .label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #7C7C7C;
+    padding-bottom: 4px;
+}
+
+.CreateCustomer .input-field .input-box input,
+.CreateCustomer .input-field .input-box select,
+.CreateCustomer .input-field .input-box textarea {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #DFDFDF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    resize: none;
+    background: var(--white);
+}
+
+.CreateCustomer .input-field .input-box input:focus,
+.CreateCustomer .input-field .input-box textarea:focus {
+    outline: none;
+    border: 1px solid var(--blue);
+}
+
+.CreateCustomer .input-field .input-box select option {
+    background: white;
+    color: var(--black);
+}
+
+.CreateCustomer .buttons-main,
+.CreateCustomer .buttons-main .right {
+    display: flex;
+    align-items: center;
+}
+
+.CreateCustomer .buttons-main{
+    justify-content: flex-end;
+    min-width: 500px;
+    max-width: 70%;
+    /* min-width: 800px;
+    max-width: 1200px; */
+}

@@ -1,0 +1,162 @@
+.Login {
+    height: calc(100vh - 10px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Login h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--purple);
+    padding-bottom: 30px;
+    line-height: 135%;
+}
+
+
+.Login p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.Login .image,
+.Login .form {
+    flex: 1;
+    height: calc(100vh - 10px);
+}
+
+.Login .image {
+    overflow: hidden;
+}
+
+.Login .image img {
+    width: 100%;
+    height: calc(100vh - 10px);
+    object-fit: cover;
+}
+
+.Login .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.Login .form .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.Login .form .content img {
+    max-height: 56px;
+    margin-bottom: 60px;
+}
+
+.Login .form .content form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Login .form .content form>p,
+.Login .form .content form>h1 {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.Login .form .content form .field {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.Login .form .content form .field input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+.Login .form .content form .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.Login .form .content form .options >*{
+    margin: 5px 0;
+}
+
+.Login .form .content form .options .remember {
+    display: flex;
+    align-items: center;
+}
+
+.Login .form .content form .options .remember input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Login .form .content form input[type="submit"] {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: var(--purple);
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+}
+
+.Login .form .content form input[type="submit"]:hover {
+    color: var(--purple);
+    background: white;
+    transition: 0.2s all ease-out;
+}
+
+
+.Login .line {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background: var(--purple);
+}
+
+
+@media screen and (max-width:800px) {
+    .Login h1 {
+        font-size: 24px;
+    }
+
+    .Login p {
+        font-size: 14px;
+    }
+
+    .Login .form .content img {
+        max-height: 46px;
+    }
+
+    .Login .form .content form .options {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .Login .image{
+        position: absolute;
+        width: 100%;
+        top:0;
+        left:0;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .Login .form .content img {
+        max-height: 42px;
+    }
+}

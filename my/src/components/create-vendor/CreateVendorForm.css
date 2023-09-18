@@ -1,0 +1,62 @@
+.CreateVendorForm {
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    /* min-width: 800px; */
+    /* max-width: 70%; */
+}
+
+/* Row Generally  */
+
+.CreateVendorForm .form .row .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.CreateVendorForm .form .row select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.CreateVendorForm .form .row .input-field:first-child {
+    margin-left: 0px;
+}
+
+.CreateVendorForm .form .row .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+.CreateVendorForm .form .row .input-field .input-box.cal {
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+}
+.CreateVendorForm .form .row .input-field .input-box.cal input {
+    border: none;
+    border-radius: none;
+}
+.CreateVendorForm .form .row .input-field .input-box .icon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color:var(--blue);
+}
+
+.CreateVendorForm .form .row-1 .value-changer:hover{
+    color:var(--blue);
+}
+
+/* Row Generally  */
+
+/* Row 1 */
+.CreateVendorForm .form .row-1 .input-field:nth-child(1) {
+    flex: 2.2;
+    padding-left: 0px;
+}
+
+.CreateVendorForm .form .row-1 .input-field:nth-child(1) .input-box input {
+    padding-left: 30px;
+}
+
+/* Row 1 */

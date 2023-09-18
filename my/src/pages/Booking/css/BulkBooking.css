@@ -1,0 +1,50 @@
+.BulkBooking{
+    padding: 20px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+
+.BulkBooking .header {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--blue);
+}
+
+.BulkBooking .info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.BulkBooking .info .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.BulkBooking .info .buttons input{
+    width: 100%;
+}
+
+.BulkBooking .info .buttons .choose-file{
+    border: none;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    outline: none;
+    color: var(--blue);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    max-width: 170px;
+    background: white;
+}
+
+.BulkBooking .info .buttons>* {
+    margin-left: 16px;
+}
+
+.BulkBooking .info .buttons .IconedButton.special{
+    background: var(--blue);
+    color: var(--white);
+}

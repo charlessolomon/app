@@ -1,0 +1,53 @@
+.ManageBooking {
+    padding: 20px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+.ManageBooking .header {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--blue);
+}
+
+.ManageBooking .info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ManageBooking .info .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.ManageBooking .info .SearchBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.ManageBooking .info .SearchBox .icon {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    color: var(--blue);
+}
+
+.ManageBooking .info .SearchBox input {
+    padding: 10px;
+    padding-left: 36px;
+    border: 1px solid var(--blue);
+    border-radius: 5px;
+    outline: none;
+    color: var(--blue);
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    max-width: 170px;
+}
+
+.ManageBooking .info .buttons>* {
+    margin-left: 16px;
+}

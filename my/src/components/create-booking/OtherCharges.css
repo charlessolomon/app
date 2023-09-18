@@ -1,0 +1,94 @@
+.OtherCharges{
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+/* Row 1  */
+.OtherCharges .form .row-1 .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.OtherCharges .form .row-1 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.OtherCharges .form .row-1 .input-field:first-child {
+    margin-left: 0px;
+}
+
+.OtherCharges .form .row-1 .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+.OtherCharges .form .row-1 .add-input{
+    margin-left: 10px;
+}
+
+.OtherCharges .form .row-1 .value-changer{
+    border: 1px solid #DFDFDF;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #868686;
+    font-size: 60px;
+}
+
+.OtherCharges .form .row-1 .value-changer:hover{
+    color:var(--blue)
+}
+/* Row 1  */
+
+
+
+/* Row 2  */
+.OtherCharges .form .row-2 .input-field {
+    flex: 3;
+    margin-left: 30px;
+}
+
+.OtherCharges .form .row-2 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.OtherCharges .form .row-2 .input-field:first-child {
+    margin-left: 0px;
+    flex: 1;
+}
+
+.OtherCharges .form .row-2 .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+.OtherCharges .form .row-2 .add-input{
+    margin-left: 10px;
+}
+
+.OtherCharges .form .row-2 .value-changer{
+    border: 1px solid #DFDFDF;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #868686;
+    font-size: 60px;
+}
+
+.OtherCharges .form .row-2 .value-changer:hover{
+    color:var(--blue)
+}
+/* Row 2  */

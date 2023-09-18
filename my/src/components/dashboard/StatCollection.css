@@ -1,0 +1,16 @@
+.StatCollection{
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+.StatCollection > *{
+    margin-left: 30px;
+}
+
+.StatCollection > *:first-child{
+    margin-left: 0;
+}

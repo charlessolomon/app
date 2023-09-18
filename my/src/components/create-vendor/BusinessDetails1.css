@@ -1,0 +1,42 @@
+.BusinessDetails1 {
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+}
+
+/* Row Generally  */
+
+.BusinessDetails1 .form .row .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.BusinessDetails1 .form .row select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+
+.BusinessDetails1 .form .row .input-field:first-child {
+    margin-left: 0px;
+}
+
+.BusinessDetails1 .form .row .input-field input {
+    min-width: 40px;
+    width: 100%;
+}
+
+/* Row Generally  */
+
+/* Row 2  */
+
+.BusinessDetails1 .form .row-2 .input-field {
+    flex-basis: 30.5%;  
+    flex-grow: unset;
+} 
+.BusinessDetails1 .form .row-2 .input-field:first-child {
+    flex-basis: 48%;  
+    flex-grow: unset;
+} 
+/* Row 2  */
+

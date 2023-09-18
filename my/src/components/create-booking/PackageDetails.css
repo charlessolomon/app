@@ -1,0 +1,62 @@
+.PackageDetails{
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+.PackageDetails .heading{
+    display: flex;
+    align-items: center;
+}
+
+.PackageDetails .heading p{
+    margin-left: 10px;
+    color:#868686;
+    font-size: 13px;
+}
+
+
+/* Row 1  */
+.PackageDetails .form .row-1 .input-field {
+    flex: 1;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.PackageDetails .form .row-1 .input-field:nth-child(1) {
+    padding-left: 0px;
+}
+
+.PackageDetails .form .row-1 .input-box input{
+    min-width: 20px;
+    width: 100%;
+}
+
+.PackageDetails .form .row-1 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+/* Row 1  */
+
+
+/* Row 2  */
+.PackageDetails .form .row-2 .input-field {
+    flex: 1;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.PackageDetails .form .row-2 .input-field:nth-child(1) {
+    flex: 2;
+    padding-left: 0px;
+}
+
+.PackageDetails .form .row-2 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+/* Row 2  */

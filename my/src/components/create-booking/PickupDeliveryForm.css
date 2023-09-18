@@ -1,0 +1,128 @@
+.PickupDeliveryForm{
+    background: white;
+    border-radius: 5px;
+    padding: 14px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+
+.PickupDeliveryForm .header .heading{
+    display: flex;
+    align-items: center;
+}
+
+.PickupDeliveryForm .header h1 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 135%;
+    color: #7C7C7C;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.PickupDeliveryForm .header h1:hover{
+    color: var(--blue) !important;
+}
+
+/* Row 1  */
+.PickupDeliveryForm .form .row-1 .input-field {
+    flex: 1;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.PickupDeliveryForm .form .row-1 .input-field:nth-child(1) {
+    padding-left: 0px;
+}
+/* Row 1  */
+
+
+/* Row 2 */
+.PickupDeliveryForm .form .row-2 .input-field {
+    flex: 2;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.PickupDeliveryForm .form .row-2 .input-field:nth-child(1) {
+    padding-left: 0px;
+    flex: 3;
+}
+
+.PickupDeliveryForm .form .row-2 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+/* Row 2 */
+
+
+/* Row 3  */
+.PickupDeliveryForm .form .row-3 .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+
+.PickupDeliveryForm .form .row-3 .input-field:first-child {
+    margin-left: 0px;
+}
+
+.PickupDeliveryForm .form .row-3 select{
+    border: none;
+    border-right:10px solid transparent;
+    outline: 1px solid #DFDFDF;
+}
+/* Row 3  */
+
+
+/* Row 4  */
+.PickupDeliveryForm .form .row-4 .input-field {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.PickupDeliveryForm .form .row-4 .input-field:first-child {
+    margin-left: 0px;
+    flex: 2;
+}
+/* Row 4  */
+
+
+/* Row 5  */
+.PickupDeliveryForm .form .row-5 .input-field {
+    flex: 1;
+    max-width: 300px;
+}
+
+.PickupDeliveryForm .form .row-5 .input-box {
+    border: 1px solid #DFDFDF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.PickupDeliveryForm .form .row-5 .input-box .option {
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.PickupDeliveryForm .form .row-5 .input-box .option label {
+    margin-left: 6px;
+}
+/* Row 5  */
+
+
+.PickupDeliveryForm .form .input-field input{
+    min-width: 20px;
+    width: 100%;
+}
